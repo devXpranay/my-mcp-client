@@ -160,9 +160,7 @@ class MCPClient {
                 try {
                     const messageParams: MessageCreateParams = {
                         system: BASE_PROMPT,
-                        model: iteration === 1
-                            ? "claude-3-haiku-20240307"
-                            : "claude-3-5-sonnet-20241022",
+                        model: "claude-3-haiku-20240307",
                         max_tokens: 1000,
                         messages,
                         tools: allTools, // Always include tools in every request
