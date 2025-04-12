@@ -14,11 +14,18 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
     "@modelcontextprotocol/sdk": "^1.9.0",
+    "chalk": "^5.4.1",
     "dotenv": "^16.4.7",
-    "openai": "^4.93.0"
+    "express": "^5.1.0",
+    "openai": "^4.93.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
   },
   "devDependencies": {
+    "@types/express": "^5.0.1",
     "@types/node": "^22.14.0",
+    "@types/socket.io": "^3.0.1",
+    "@types/socket.io-client": "^1.4.36",
     "typescript": "^5.8.3"
   }
 }
